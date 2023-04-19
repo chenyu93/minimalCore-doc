@@ -1,5 +1,3 @@
-
-Welcome to minimalCore documentation!
 ===================================
 
 **minimalCore**  
