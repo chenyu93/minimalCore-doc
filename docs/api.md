@@ -1,5 +1,14 @@
 # API Reference
 
+### npc_move_to_async
+Query the activate trigger boxes of given npc
+
+ -  Input
+    -  name[`string`]: unique id for npc 
+    -  location[`Tuple<float, float, float>`]: world position
+    -  speed[`float`]: move maxinum speed, e.g., 100(walk), 300(run)
+ - Output 
+    - `None`
 
 ### get_npc_pos_vel
 Query the location of the NPC and the instant velocity.
