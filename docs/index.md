@@ -1,6 +1,6 @@
-===================================
+# minimalCore
+===============================================
 
-**minimalCore**  
 is an experimental testbed for game AI, e.g., NPCs, Bots and AIGC, built on Unreal Engine (also, an experimental Unity release is comming soon). 
 It is open-source, cross platform, developed as an Unreal plugin 
 that can simply be dropped into any Unreal environment. 
