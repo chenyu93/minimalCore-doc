@@ -1,4 +1,3 @@
-{!README.md!}
 
 Welcome to minimalCore documentation!
 ===================================
