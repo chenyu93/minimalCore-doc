@@ -7,4 +7,12 @@ Query the location of the NPC and the instant velocity.
  -  Input
     -  name[`string`]: unique id for npc 
  - Output 
-    -  `float[6]`: Location.X Location.Y Location.Z Velocity.X Velocity.Y Velocity.Z (world coordinates)
+    -  `Tuple<float, float, float, float, float, float>`: Location.X Location.Y Location.Z Velocity.X Velocity.Y Velocity.Z (world coordinates)
+
+### get_npc_active_triggers
+Query the activate trigger boxes of given npc
+
+ -  Input
+    -  name[`string`]: unique id for npc 
+ - Output 
+    -  `vector<string>`: return currenly activated trigger
