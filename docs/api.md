@@ -10,6 +10,17 @@ Query the activate trigger boxes of given npc
  - Output 
     - `None`
 
+
+### npc_play_anim_async
+Query the activate trigger boxes of given npc
+
+ -  Input
+    -  name[`string`]: unique id for npc 
+    -  animId[`int`]: Id of animation, defines in `NPCAsset/Content/blueprints/NPCAnimations_DT`
+ - Output 
+    - `None`
+
+
 ### get_npc_pos_vel
 Query the location of the NPC and the instant velocity.
 
